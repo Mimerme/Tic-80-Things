@@ -52,7 +52,7 @@ while True:
 		#	csgo.write_float(glow_object + ((glow_index * 0x38) + 0xC), 0)
 		#	csgo.write_float(glow_object + ((glow_index * 0x38) + 0x10),1)
 
-		print str(glow_object + ((glow_index * 0x38)))
+		#print str(glow_object + ((glow_index * 0x38)))
 		#print "Their team: " + str(entity_team)
 		#print entity
 		#print glow_index
@@ -60,6 +60,9 @@ while True:
 		#csgo.write_char(glow_object + ((glow_index * 0x38) + 0x23), 0x01)
 		csgo.write_char(glow_object + ((glow_index * 0x38) + 0x24), 1)
 		csgo.write_char(glow_object + ((glow_index * 0x38) + 0x25), 0)
+		#csgo.write_char(glow_object + ((glow_index * 0x38) + 0x2C), 1)
+		#csgo.write_char(glow_object + ((glow_index * 0x38) + 0x26), 1)
+		#csgo.write_char(glow_object + ((glow_index * 0x38) + 0x25), 0)
 
 		#csgo.write_float(glow_object + ((glow_index * 0x38) + 0x8), 0)
 		#csgo.write_float(glow_object + ((glow_index * 0x38) + 0xC), 2)
